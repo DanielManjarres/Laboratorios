@@ -1,0 +1,3 @@
+Laboratorio cambios a realizar al código:
+
+Crear otro tipo de árbol y plantarlo, reutilizar ese tipo de árbol para plantarlo en dos ubicaciones diferentes 

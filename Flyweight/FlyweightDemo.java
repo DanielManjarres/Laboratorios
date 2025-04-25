@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.ArrayList;
 import java.util.List;
 
-// Clase Flyweight: Representa el estado intrínseco de un árbol (compartido)
+// Clase Flyweight: Representa el estado intrínseco de un árbol
 class TreeType {
     private String name;    // Ejemplo: "Pino", "Roble"
     private String color;   // Ejemplo: "Verde", "Marrón"
@@ -83,7 +83,7 @@ class Forest {
     }
 }
 
-// Ejemplo de uso
+// Uso
 public class FlyweightDemo {
     public static void main(String[] args) {
         Forest forest = new Forest();
