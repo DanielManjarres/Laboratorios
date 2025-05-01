@@ -94,11 +94,13 @@ public class FlyweightDemo {
         forest.plantTree(30, 40, "Roble", "Marrón", "Corteza rugosa");
         forest.plantTree(35, 45, "Pino", "Verde", "Hoja fina"); // Reutiliza nuevamente
         forest.plantTree(50, 60, "Roble", "Marrón", "Corteza rugosa"); // Reutiliza el roble
+        // Nuevo tipo de árbol: Álamo, plantado en dos ubicaciones
+        forest.plantTree(70, 80, "Álamo", "Verde claro", "Corteza lisa"); // Crea nuevo TreeType
+        forest.plantTree(75, 85, "Álamo", "Verde claro", "Corteza lisa"); // Reutiliza el TreeType
 
         // Renderizamos el bosque
         forest.draw();
 
-        // Nota: Aunque plantamos 5 árboles, solo creamos 2 TreeType
+        // Nota: Aunque plantamos 7 árboles, solo creamos 3 TreeType
     }
 }
-
